@@ -1,0 +1,43 @@
+.play{
+    background-color: #1CCCB1;
+    color: #333737 !important;
+}
+
+body{
+    font-family: Arial;
+}
+
+.others-container{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.socials-container{
+    display: flex;
+    justify-content: center;
+}
+
+.socials{
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #1CCCB1;
+    padding: 8px;
+    font-size: 20px;
+    border-radius: 50%;
+    color: #BDBDBD;
+}
+
+.footer{
+    margin-top: 10px;
+}
+
+.footer-divider{
+    width: 1px;
+    background-color: black;
+    
+}
+
+.others{
+    font-size: 25px;
+}

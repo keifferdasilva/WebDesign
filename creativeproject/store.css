@@ -1,0 +1,74 @@
+.play{
+    background-color: #1CCCB1;
+    color: #333737 !important;
+}
+
+body{
+    font-family: Arial;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.others-container{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.socials-container{
+    display: flex;
+    justify-content: center;
+}
+
+.socials{
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #1CCCB1;
+    padding: 8px;
+    font-size: 20px;
+    border-radius: 50%;
+    color: #BDBDBD;
+}
+
+.footer{
+    margin-top: 10px;
+}
+
+.footer-divider{
+    width: 1px;
+    background-color: black;
+    
+}
+
+.others{
+    font-size: 25px;
+}
+
+.purchase{
+    width: 80%;
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    border: 7px #1CCCB1 groove;
+    box-sizing: border-box;
+}
+
+.row{
+    justify-content: center!important;
+    margin-top: 3%;
+}
+
+.purchase-content{
+    color: white;
+    font-size: 4em;
+    text-shadow: 2px 2px 1px black;
+    margin-left: 1%;
+    margin-bottom: 1%;
+}

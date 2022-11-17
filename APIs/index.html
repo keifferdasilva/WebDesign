@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<title>XKCD</title>
+
+<body>
+
+  <p>Spacecraft</p>
+  <div id="spacecrafts">1st Spacecraft</div>
+</body>
+
+<script>
+  const myurl = "https://isro.vercel.app/api/spacecrafts";
+  console.log(myurl);
+  /*global fetch*/
+  fetch(myurl)
+    .then(function(response) {
+      return response.json();
+    }).then(function(json) {
+      console.log(json);
+      const alt = document.createTextNode(json["spacecrafts"][0].name);
+      const container = document.getElementById("spacecrafts");
+      container.textContent = "";
+      container.appendChild(alt);
+    });
+</script>
+</html>

@@ -1,0 +1,69 @@
+.bg-dark, .navbar-dark{
+    background-color: #50C878 !important;
+}
+
+.active{
+    background-color: #2E8B57 !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: 	#191970;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #000000;
+}
+
+.block{
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.first-text{
+    align-self: center;
+    margin: 10px;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+    .block, .first-text{
+        justify-content: center;
+        font-size: 0.9em;
+        flex-wrap: wrap;
+    }
+    .image{
+        width: 75%;
+    }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    .block{
+        flex-wrap: wrap;
+        font-size: 0.9em;
+        justify-content: center;
+    }
+    
+    .image{
+         width: 75%;
+    }
+
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+    .first-block{
+        justify-content: flex-start;
+    }
+    
+    .second-block{
+        flex-direction: row-reverse;
+    }
+    
+    .image{
+        width: 50%;
+    }
+    
+    .first-text{
+        font-size: 1.25em;
+    }
+}

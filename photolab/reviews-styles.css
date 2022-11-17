@@ -1,0 +1,47 @@
+.bg-dark, .navbar-dark{
+    background-color: #50C878 !important;
+}
+
+.active{
+    background-color: #2E8B57 !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: 	#191970;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #000000;
+}
+
+.avatar{
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin: 25px;
+    border-radius: 40px;
+    background-color: #D6E9FE;
+}
+
+.username{
+    margin: 10px;
+    border-bottom: 2px #00A36C solid;
+    padding-bottom: 5px;
+}
+
+.username-last{
+    margin: 10px;
+}
+
+.comment{
+    margin: 10px;
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+h1{
+    text-align: center;
+    margin: 10px auto;
+    padding: 2px;
+    box-sizing: border-box;
+    width: 60%;
+}

@@ -1,0 +1,80 @@
+.play{
+    background-color: #1CCCB1;
+    color: #333737 !important;
+}
+
+body{
+    font-family: Arial;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    align-self: center;
+    width: 50%;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+.others-container{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.socials-container{
+    display: flex;
+    justify-content: center;
+}
+
+.socials{
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #1CCCB1;
+    padding: 8px;
+    font-size: 20px;
+    border-radius: 50%;
+    color: #BDBDBD;
+}
+
+.footer{
+    margin-top: 10px;
+}
+
+.footer-divider{
+    width: 1px;
+    background-color: black;
+    
+}
+
+.others{
+    font-size: 25px;
+}
+
+.img-header{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: 0 60%;
+    margin-bottom: 3%;
+}
+
+.section-divider{
+   background-color: #1CCCB1;
+   width: 70%;
+   height: 1.5px;
+}
+
+.wrapper{
+    padding: 3px;
+    border: 2px solid #1CCCB1;
+    width: 90%;
+    box-sizing: border-box;
+    margin: 0 auto;
+}

@@ -1,0 +1,45 @@
+<h1>Mountains</h1>
+
+<div id="mountains"></div>
+
+<script>
+  const MOUNTAINS = [
+    {name: "Kilimanjaro", height: 5895, place: "Tanzania"},
+    {name: "Everest", height: 8848, place: "Nepal"},
+    {name: "Mount Fuji", height: 3776, place: "Japan"},
+    {name: "Vaalserberg", height: 323, place: "Netherlands"},
+    {name: "Denali", height: 6168, place: "United States"},
+    {name: "Popocatepetl", height: 5465, place: "Mexico"},
+    {name: "Mont Blanc", height: 4808, place: "Italy/France"}
+  ];
+
+  function addMountains(){
+      let table = document.createElement('table');
+      let mountains = document.getElementById('mountains');
+      
+      let firstRow = table.appendChild(document.createElement('tr'));
+      
+      let keys = Object.keys(MOUNTAINS[0]);
+      for(let key of keys){
+        firstRow.appendChild(document.createElement('th'));
+        firstRow.lastChild.textContent = key;
+      }
+      
+      for(let mountain of MOUNTAINS){
+          let row = table.appendChild(document.createElement('tr'));
+          for(const property in mountain){
+              row.appendChild(document.createElement('td'));
+              row.lastChild.textContent = mountain[property];
+              if(!isNaN(row.lastChild.textContent)){
+                  row.lastChild.style.textAlign = 'right';
+              }
+          }
+      }
+      
+      mountains.appendChild(table);
+      
+  }
+  
+  addMountains();
+  
+</script>

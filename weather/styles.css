@@ -1,0 +1,45 @@
+#weatherResults{
+    border-bottom: dashed 5px #86EDBA;
+}
+
+body{
+    font-family: Arial;
+    text-align: center;
+}
+
+.icon{
+    background-color: #C1CAC5;
+    width: 100px;
+}
+
+.description{
+    padding-bottom: 10px;
+}
+
+h2, p{
+    width: 50%;
+   
+    margin: 0 auto;
+}
+
+p{
+    background-color: #EAB14A;
+    color: #2D71E0;
+    border-width: 5px;
+    border-color: blue;
+    border-style: none inset none outset;
+}
+
+#weatherResults, #forecastResults{
+    background-color: #2DD2E0;
+}
+
+.divider{
+    border-bottom: dashed 5px #86EDBA;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.last{
+    margin-bottom: 10px;
+}

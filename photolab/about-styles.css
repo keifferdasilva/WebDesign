@@ -1,0 +1,38 @@
+.bg-dark, .navbar-dark{
+    background-color: #50C878 !important;
+}
+
+.active{
+    background-color: #2E8B57 !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: 	#191970;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #000000;
+}
+
+h1{
+    text-align: center;
+    margin: 10px auto;
+    font-weight: normal;
+    font-size: 3.25em;
+    border-bottom: 2px #4F7942 solid;
+    width: 60%;
+}
+
+.image{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.image-container{
+    display: flex;
+    
+    flex-wrap: wrap;
+}
+
+p{
+   text-align: center; 
+}
